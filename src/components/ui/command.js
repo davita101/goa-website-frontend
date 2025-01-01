@@ -12,8 +12,8 @@ var __rest = (this && this.__rest) || function (s, e) {
 import * as React from "react";
 import { Command as CommandPrimitive } from "cmdk";
 import { Search } from "lucide-react";
-import { cn } from "@/lib/utils";
-import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { cn } from "../../lib/utils";
+import { Dialog, DialogContent } from "../ui/dialog";
 const Command = React.forwardRef((_a, ref) => {
     var { className } = _a, props = __rest(_a, ["className"]);
     return (React.createElement(CommandPrimitive, Object.assign({ ref: ref, className: cn("flex h-full w-full flex-col overflow-hidden rounded-md bg-popover text-popover-foreground", className) }, props)));

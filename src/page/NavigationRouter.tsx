@@ -1,4 +1,5 @@
 import * as React from "react"
+import { JSX } from "react"
 import { AppSidebar } from "../components/app-sidebar"
 import { NavigationMenuNotification } from "../components/nav-notification"
 import {
