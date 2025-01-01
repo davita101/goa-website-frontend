@@ -1,5 +1,5 @@
 import * as React from "react";
-import { SidebarGroup, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, } from "@/components/ui/sidebar";
+import { SidebarGroup, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, } from "./ui/sidebar";
 export function NavProjects({ items, title }) {
     return (React.createElement(SidebarGroup, null,
         React.createElement(SidebarGroupLabel, null, title),

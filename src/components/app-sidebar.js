@@ -11,9 +11,9 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import * as React from "react";
 import { Book, BookA, BookCopy, BookMarked, CalendarDays, ChartBarIncreasing, ChartColumnStacked, FileText, GalleryVertical, Inbox, MonitorCog, Presentation, SquareTerminal, UserRoundPen, } from "lucide-react";
-import { AsideDashboard } from "@/components/aside-dashboard";
-import { NavUser } from "@/components/nav-user";
-import { Sidebar, SidebarContent, SidebarHeader, SidebarRail, } from "@/components/ui/sidebar";
+import { AsideDashboard } from "./aside-dashboard";
+import { NavUser } from "./nav-user";
+import { Sidebar, SidebarContent, SidebarHeader, SidebarRail, } from "./ui/sidebar";
 import { ScrollArea } from "./ui/scroll-area";
 import { useParams } from "react-router-dom";
 import { NavProjects } from "./nav-projects";
