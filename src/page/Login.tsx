@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Button } from "@/components/ui/button"
+import { Button } from "../components/ui/button"
 import {
   Form,
   FormControl,
@@ -8,9 +8,9 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form"
-import { Input } from "@/components/ui/input"
-import { formSchemaEmail } from "@/schema/form"
+} from "../components/ui/form"
+import { Input } from "../components/ui/input"
+import { formSchemaEmail } from "../schema/form"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { Check, MoveLeft } from "lucide-react"
